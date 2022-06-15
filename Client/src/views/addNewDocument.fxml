@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="450.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerAddNewDocument">
+   <children>
+      <TextField fx:id="nameField" layoutX="37.0" layoutY="31.0" prefHeight="25.0" prefWidth="381.0" promptText="Тип документа" />
+      <TextField fx:id="dateField" layoutX="37.0" layoutY="68.0" prefHeight="25.0" prefWidth="381.0" promptText="Дата" />
+      <TextField fx:id="aboutField" layoutX="37.0" layoutY="105.0" prefHeight="25.0" prefWidth="381.0" promptText="Кем выдан" />
+      <TextField fx:id="checkField" layoutX="37.0" layoutY="147.0" prefHeight="25.0" prefWidth="381.0" promptText="Статус" />
+       <Button fx:id="addButton" layoutX="27.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #000000;" text="Добавить" textFill="WHITE" />
+   </children>
+</Pane>
